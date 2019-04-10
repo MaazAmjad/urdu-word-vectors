@@ -3,7 +3,7 @@
 
 ## Web News Dataset (linguistic variation 1)
 
-We trained this on huge News dataset. The model knows {vocab_size} different Urdu words.
+We trained this on huge News dataset. The model knows 64653 different Urdu words.
 
 **Linguistic Preprocessing**: Split into sentences, Word tokenization
 
@@ -13,4 +13,4 @@ We trained this on huge News dataset. The model knows {vocab_size} different Urd
 
 - Google Analogy: **48%**
 
-[Download](Link to the model) (*51 Mbytes*)
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_word2vec_linguistic_variation_1.bin) (*78 Mbytes*)
