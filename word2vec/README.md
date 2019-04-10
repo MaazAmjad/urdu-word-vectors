@@ -1,7 +1,7 @@
 # Pre-trained Urdu word2vec models 
 
 
-## Web News Dataset (skipgram 2019-04-07)
+## Web News Dataset (linguistic variation 1)
 
 We trained this on huge News dataset. The model knows {vocab_size} different Urdu words.
 
