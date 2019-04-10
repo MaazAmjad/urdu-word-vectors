@@ -1,35 +1,33 @@
-# Urdu Vectors
+# Urdu Word Vector Models 
 
-Following vectors are available as of now:
+Following vector models are available as of now:
 
-### word2vec
+## Word2Vec 
 
-**Dataset Name** (parameters)
-This model is trained on {dataset_name}. Corpus size is {corpus_size}. The model knows {vocab_size}
-different Urdu words (lemmas).<br>
+### Web News Dataset (linguistic variation 1)
 
-*Linguistic Preprocessing*: split into sentences, tokenized, lemmatized, PoS-tagged, phrases (two-word entities) extracted, stop words removed
+We trained this on huge News dataset. The model knows 64653 different Urdu words.
 
-*Context window length*: 10 words to the left and 10 words to the right.
+**Linguistic Preprocessing**: Split into sentences, Word tokenization
 
-Model Performance:
+**Parameters**: {"alpha": 0.05, "hs": 0, "iter": 15, "min_count": 50, "negative": 20, "sample": 0.0001, "sg": 1, "size": 300, "window": 5}
 
-- Google Analogy: **0.56**
+##### Model Performance:
 
-[Download](Link to the model) (*51 Mbytes*)
+- Google Analogy: **48%**
 
-### fasttext
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_word2vec_linguistic_variation_1.bin) (*78 Mbytes*)
 
-**Dataset Name** (parameters)
-This model is trained on {dataset_name}. Corpus size is {corpus_size}. The model knows {vocab_size}
-different Urdu words (lemmas).<br>
+### Web News Dataset (linguistic variation 2)
 
-*Linguistic Preprocessing*: split into sentences, tokenized, lemmatized, PoS-tagged, phrases (two-word entities) extracted, stop words removed
+We trained this on huge News dataset. The model knows 64653 different Urdu words.
 
-*Context window length*: 10 words to the left and 10 words to the right.
+**Linguistic Preprocessing**: Split into sentences, Word tokenization
 
-Model Performance:
+**Parameters**: {"alpha": 0.05, "hs": 0, "iter": 15, "min_count": 50, "negative": 20, "sample": 0.0001, "sg": 1, "size": 300, "window": 5}
 
-- Google Analogy: **0.56**
+##### Model Performance:
 
-[Download](Link to the model) (*51 Mbytes*)
+- Google Analogy: **48%**
+
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_word2vec_linguistic_variation_1.bin) (*78 Mbytes*)
