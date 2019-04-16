@@ -17,9 +17,9 @@ We trained this on huge News dataset. The model knows 64653 different Urdu words
 
 - Google Analogy: **48%**
 
-[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_word2vec_linguistic_variation_1.bin) (*78 Mbytes*)
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_word2vec_linguistic_variation_1.bin) (**78 MB**)
 
-## fasttext
+## Fasttext
 
 ### Web News Dataset (linguistic variation 1)
 ---------------------------------------------
@@ -32,6 +32,6 @@ We trained this on huge News dataset. The model knows 64653 different Urdu words
 
 **Model Performance:**
 
-- Google Analogy: **46%**
+- Google Analogy: **44%**
 
-[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_word2vec_linguistic_variation_1.bin) (*78 Mbytes*)
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_fasttext_linguistic_variation_1.zip) (**437 MB**)
