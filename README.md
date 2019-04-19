@@ -24,13 +24,27 @@ We trained this on huge News dataset. The model knows 64315 different Urdu words
 
 **Linguistic Preprocessing:** Split into sentences, Word tokenization, Stop word removed
 
-**Parameters:** {"alpha": 0.05, "hs": 0, "iter": 15, "min_count": 50, "negative": 20, "sample": 0.0001, "sg": 1, "size": 300, "window": 5,}
+**Parameters:** {"alpha": 0.05, "hs": 0, "iter": 15, "min_count": 50, "negative": 20, "sample": 0.0001, "sg": 1, "size": 300, "window": 5}
 
 **Model Performance:**
 
 - Google Analogy: **52%**
 
 [Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_word2vec_linguistic_variation_2.bin) (**70 MB**)
+
+### Wikipedia Dataset (linguistic variation 1)
+----------------------------------------------------
+We trained this model on whole wikipedia dataset. The model knows 17794 different Urdu words.
+
+**Linguistic Preprocessing:** Split into sentences, Word tokenization
+
+**Parameters:** {"alpha": 0.05, "hs": 0, "iter": 15, "min_count": 50, "negative": 20, "sample": 0.0001, "sg": 1, "size": 300, "window": 5}
+
+**Model Performance:**
+
+- Google Analogy: **61%**
+
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_wikipedia_vector300_word2vec_linguistic_variation_1.bin) (**20 MB**)
 
 ## Fasttext
 
