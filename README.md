@@ -38,11 +38,11 @@ We trained this model on whole wikipedia dataset. The model knows 17794 differen
 
 **Linguistic Preprocessing:** Split into sentences, Word tokenization
 
-**Parameters:** {"alpha": 0.05, "hs": 0, "iter": 15, "min_count": 50, "negative": 20, "sample": 0.0001, "sg": 1, "size": 300, "window": 5}
+**Parameters:** {"alpha": 0.05, "hs": 0, "iter": 15, "min_count": 50, "negative": 20, "sample": 0.0001, "sg": 1, "size": 300, "window": 10}
 
 **Model Performance:**
 
-- Google Analogy: **61%**
+- Google Analogy: **62%**
 
 [Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_wikipedia_vector300_word2vec_linguistic_variation_1.bin) (**20 MB**)
 
