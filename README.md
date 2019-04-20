@@ -105,4 +105,17 @@ We trained this model on whole wikipedia dataset.
 
 [Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_wikipedia_vector300_fasttext_linguistic_variation_1.zip) (**166 MB**)
 
+### Wikipedia Dataset (linguistic variation 2)
+----------------------------------------------------
+We trained this model on whole wikipedia dataset.
+
+**Linguistic Preprocessing:** Split into sentences, Word tokenization, Stop word removed
+
+**Parameters:** {"alpha": 0.05, "hs": 0, "iter": 15, "max_n": 5, "min_count": 50, "min_n": 2, "negative": 20, "sample": 0.0001, "sg": 1, "size": 300, "window": 10, "word_ngrams": 1} 
+
+**Model Performance:**
+
+- Google Analogy: **58%**
+
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_wikipedia_vector300_fasttext_linguistic_variation_2.zip) (**163 MB**)
 
