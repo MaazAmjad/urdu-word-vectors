@@ -65,7 +65,7 @@ We trained this model on whole wikipedia dataset. The model knows 17465 differen
 
 ### Web News Dataset (linguistic variation 1)
 ----------------------------------------------------
-We trained this on huge News dataset. The model knows 64653 different Urdu words.
+We trained this on huge News dataset.
 
 **Linguistic Preprocessing:** Split into sentences, Word tokenization
 
@@ -79,7 +79,7 @@ We trained this on huge News dataset. The model knows 64653 different Urdu words
 
 ### Web News Dataset (linguistic variation 2)
 ----------------------------------------------------
-We trained this on huge News dataset. The model knows 64653 different Urdu words.
+We trained this on huge News dataset.
 
 **Linguistic Preprocessing:** Split into sentences, Word tokenization, Stop word removed
 
@@ -87,9 +87,9 @@ We trained this on huge News dataset. The model knows 64653 different Urdu words
 
 **Model Performance:**
 
-- Google Analogy: **49%**
+- Google Analogy: **50%**
 
-[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_fasttext_linguistic_variation_1.zip) (**437 MB**)
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_web_news_vector300_fasttext_linguistic_variation_2.zip) (**436 MB**)
 
 
 
