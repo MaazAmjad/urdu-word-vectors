@@ -44,7 +44,22 @@ We trained this model on whole wikipedia dataset. The model knows 17794 differen
 
 - Google Analogy: **62%**
 
-[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_wikipedia_vector300_word2vec_linguistic_variation_1.bin) (**20 MB**)
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_wikipedia_vector300_word2vec_linguistic_variation_1.bin) (**21 MB**)
+
+### Wikipedia Dataset (linguistic variation 2)
+----------------------------------------------------
+We trained this model on whole wikipedia dataset. The model knows 17465 different Urdu words.
+
+**Linguistic Preprocessing:** Split into sentences, Word tokenization, Stop word removed
+
+**Parameters:** {"alpha": 0.05, "hs": 0, "iter": 15, "min_count": 50, "negative": 20, "sample": 0.0001, "sg": 1, "size": 300, "window": 10} 
+
+**Model Performance:**
+
+- Google Analogy: **62%**
+
+[Download](https://sgp1.digitaloceanspaces.com/urduhack/models/word-vectors/urdu_wikipedia_vector300_word2vec_linguistic_variation_2.bin) (**21 MB**)
+
 
 ## Fasttext
 
